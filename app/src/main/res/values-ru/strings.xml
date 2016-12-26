@@ -40,4 +40,8 @@
     <string name="question_6_answer_3">Нота</string>
     <string name="question_6_answer_4">Басовый ключ</string>
     <string name="submit_button">Отправить</string>
+    <string name="input_answer_hint">Напишите ответ здесь</string>
+    <string name="question_7">Фамилия композитора балета \"Щелкунчик\"</string>
+    <string name="no_name_user">Дорогой друг</string>
+    <string name="question_7_answer">Чайковский</string>
 </resources>

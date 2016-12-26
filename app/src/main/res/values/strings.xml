@@ -1,6 +1,8 @@
 <resources xmlns:xliff="http://schemas.android.com/tools">
     <string name="app_name">Music Quiz</string>
     <string name="name_hint">Please enter your name</string>
+    <string name="no_name_user">Dear friend</string>
+    <string name="input_answer_hint">Please type your answer here</string>
     <string name="question_1">Which one of these is a percussion instrument?</string>
     <string name="question_1_answer_1">Saxophone</string>
     <string name="question_1_answer_2">Violin</string>
@@ -34,6 +36,8 @@
     <string name="question_6_answer_2">Major</string>
     <string name="question_6_answer_3">Note</string>
     <string name="question_6_answer_4">Bass clef</string>
+    <string name="question_7">Last name of the composer of "The Nutcracker" ballet?</string>
+    <string name="question_7_answer">Tchaikovsky</string>
     <string name="submit_button">Submit</string>
     <string name="earned_points_message"><xliff:g example="Max" id="userName">%s</xliff:g>, you\'ve earned
         <xliff:g example="15" id="scores">%d</xliff:g> of <xliff:g example="18" id="MAX_NUMBER_OF_POINTS">%d</xliff:g>

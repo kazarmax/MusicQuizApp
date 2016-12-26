@@ -13,7 +13,8 @@
 
         <EditText
             android:id="@+id/name_input_view"
-            style="@style/InputName" />
+            style="@style/InputName"
+            android:hint="@string/name_hint" />
 
         <TextView
             style="@style/QuizQuestion"
@@ -72,29 +73,32 @@
             android:text="@string/question_3" />
 
         <CheckBox
+            android:id="@+id/multi_question_3_incorrect_answer_1"
             style="@style/QuizAnswer"
             android:text="@string/question_3_answer_1" />
 
         <CheckBox
+            android:id="@+id/multi_question_3_incorrect_answer_2"
             style="@style/QuizAnswer"
             android:text="@string/question_3_answer_2" />
 
         <CheckBox
-            android:id="@+id/multi_question_3_correct_answer_1"
+            android:id="@+id/multi_question_3_correct_answer_3"
             style="@style/QuizAnswer"
             android:text="@string/question_3_answer_3" />
 
         <CheckBox
-            android:id="@+id/multi_question_3_correct_answer_2"
+            android:id="@+id/multi_question_3_correct_answer_4"
             style="@style/QuizAnswer"
             android:text="@string/question_3_answer_4" />
 
         <CheckBox
+            android:id="@+id/multi_question_3_incorrect_answer_5"
             style="@style/QuizAnswer"
             android:text="@string/question_3_answer_5" />
 
         <CheckBox
-            android:id="@+id/multi_question_3_correct_answer_3"
+            android:id="@+id/multi_question_3_correct_answer_6"
             style="@style/QuizAnswer"
             android:text="@string/question_3_answer_6" />
 
@@ -136,20 +140,22 @@
             android:text="@string/question_5_answer_1" />
 
         <CheckBox
+            android:id="@+id/multi_question_5_incorrect_answer_2"
             style="@style/QuizAnswer"
             android:text="@string/question_5_answer_2" />
 
         <CheckBox
-            android:id="@+id/multi_question_5_correct_answer_2"
+            android:id="@+id/multi_question_5_correct_answer_3"
             style="@style/QuizAnswer"
             android:text="@string/question_5_answer_3" />
 
         <CheckBox
+            android:id="@+id/multi_question_5_incorrect_answer_4"
             style="@style/QuizAnswer"
             android:text="@string/question_5_answer_4" />
 
         <CheckBox
-            android:id="@+id/multi_question_5_correct_answer_3"
+            android:id="@+id/multi_question_5_correct_answer_5"
             style="@style/QuizAnswer"
             android:text="@string/question_5_answer_5" />
 
@@ -180,6 +186,15 @@
         </RadioGroup>
 
         <View style="@style/Divider" />
+
+        <TextView
+            style="@style/QuizQuestion"
+            android:text="@string/question_7" />
+
+        <EditText
+            android:id="@+id/input_answer_question_7"
+            style="@style/InputName.QuizAnswer"
+            android:hint="@string/input_answer_hint" />
 
         <Button
             style="@style/Button"
