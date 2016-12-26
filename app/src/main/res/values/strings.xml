@@ -1,0 +1,45 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Music Quiz</string>
+    <string name="name_hint">Please enter your name</string>
+    <string name="question_1">Which one of these is a percussion instrument?</string>
+    <string name="question_1_answer_1">Saxophone</string>
+    <string name="question_1_answer_2">Violin</string>
+    <string name="question_1_answer_3">Metallophone</string>
+    <string name="question_1_answer_4">Mandolin</string>
+    <string name="question_2">Which one of these is the right musical scale?</string>
+    <string name="question_2_answer_1">12345678</string>
+    <string name="question_2_answer_2">ABCDEFGH</string>
+    <string name="question_2_answer_3">Do Re Mi Fa So La Ti Do</string>
+    <string name="question_2_answer_4">Do Re Mi Fa La So Ti Do</string>
+    <string name="question_3">Which of the following are stringed instruments?</string>
+    <string name="question_3_answer_1">Trumpet</string>
+    <string name="question_3_answer_2">Drums</string>
+    <string name="question_3_answer_3">Guitar</string>
+    <string name="question_3_answer_4">Harp</string>
+    <string name="question_3_answer_5">Flute</string>
+    <string name="question_3_answer_6">Banjo</string>
+    <string name="question_4">How many pedals does a grand piano have?</string>
+    <string name="question_4_answer_1">1</string>
+    <string name="question_4_answer_2">3</string>
+    <string name="question_4_answer_3">4</string>
+    <string name="question_4_answer_4">2</string>
+    <string name="question_5">Which of the following are accidentals?</string>
+    <string name="question_5_answer_1">Sharp</string>
+    <string name="question_5_answer_2">Glide</string>
+    <string name="question_5_answer_3">Flat</string>
+    <string name="question_5_answer_4">Violin clef</string>
+    <string name="question_5_answer_5">Natural</string>
+    <string name="question_6">A sign used in musical notation to represent the relative duration and pitch of a sound</string>
+    <string name="question_6_answer_1">Symbol</string>
+    <string name="question_6_answer_2">Major</string>
+    <string name="question_6_answer_3">Note</string>
+    <string name="question_6_answer_4">Bass clef</string>
+    <string name="submit_button">Submit</string>
+    <string name="earned_points_message"><xliff:g example="Max" id="userName">%s</xliff:g>, you\'ve earned
+        <xliff:g example="15" id="scores">%d</xliff:g> of <xliff:g example="18" id="MAX_NUMBER_OF_POINTS">%d</xliff:g>
+        points.
+    </string>
+    <string name="excellent_result">Excellent knowledge of basic music theory!</string>
+    <string name="good_result">Good knowledge of basic music theory.</string>
+    <string name="poor_result">Poor knowledge of basic music theory :(</string>
+</resources>

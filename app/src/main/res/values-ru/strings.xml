@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Music Quiz</string>
+    <string name="earned_points_message"><xliff:g id="userName" example="Max">%s</xliff:g>, Вы набрали <xliff:g id="scores" example="15">%d</xliff:g> из <xliff:g id="MAX_NUMBER_OF_POINTS" example="18">%d</xliff:g> баллов.</string>
+    <string name="excellent_result">Отличное знание базовой музыкальной теории!</string>
+    <string name="good_result">Хорошее знание базовой музыкальной теории.</string>
+    <string name="name_hint">Напишите Ваше имя, пожалуйста</string>
+    <string name="poor_result">Слабое знание базовой музыкальной теории :(</string>
+    <string name="question_1">Что из этого относится к ударным инструментам?</string>
+    <string name="question_1_answer_1">Саксофон</string>
+    <string name="question_1_answer_2">Скрипка</string>
+    <string name="question_1_answer_3">Металлофон</string>
+    <string name="question_1_answer_4">Мандолина</string>
+    <string name="question_2">Что из этого является музыкальной гаммой?</string>
+    <string name="question_2_answer_1">12345678</string>
+    <string name="question_2_answer_2">АБВГДЕЖ</string>
+    <string name="question_2_answer_3">До Ре Ми Фа Соль Ля Си До</string>
+    <string name="question_2_answer_4">До Ре Ми Фа Ля Соль Си До</string>
+    <string name="question_3">Что из этого относится к струнным инструментам?</string>
+    <string name="question_3_answer_1">Труба</string>
+    <string name="question_3_answer_2">Барабаны</string>
+    <string name="question_3_answer_3">Гитара</string>
+    <string name="question_3_answer_4">Арфа</string>
+    <string name="question_3_answer_5">Флейта</string>
+    <string name="question_3_answer_6">Банджо</string>
+    <string name="question_4">Сколько педалей есть у рояля?</string>
+    <string name="question_4_answer_1">1</string>
+    <string name="question_4_answer_2">3</string>
+    <string name="question_4_answer_3">4</string>
+    <string name="question_4_answer_4">2</string>
+    <string name="question_5">Что из этого является знаком альтерации?</string>
+    <string name="question_5_answer_1">Диез</string>
+    <string name="question_5_answer_2">Легато</string>
+    <string name="question_5_answer_3">Бемоль</string>
+    <string name="question_5_answer_4">Скрипичный ключ</string>
+    <string name="question_5_answer_5">Бекар</string>
+    <string name="question_6">Графическое обозначение звука музыкального произведения</string>
+    <string name="question_6_answer_1">Символ</string>
+    <string name="question_6_answer_2">Мажор</string>
+    <string name="question_6_answer_3">Нота</string>
+    <string name="question_6_answer_4">Басовый ключ</string>
+    <string name="submit_button">Отправить</string>
+</resources>
