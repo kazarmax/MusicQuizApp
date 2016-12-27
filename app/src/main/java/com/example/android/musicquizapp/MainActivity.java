@@ -16,45 +16,15 @@ public class MainActivity extends AppCompatActivity {
     private static final int POOR_LEVEL_THRESHOLD = 10;
     private static final int NORMAL_LEVEL_THRESHOLD = 17;
 
-    EditText userNameEditText;
-    EditText quizAnswerQuestion7;
-
-    CheckBox checkBoxQ3A1Wrong;
-    CheckBox checkBoxQ3A2Wrong;
-    CheckBox checkBoxQ3A3Right;
-    CheckBox checkBoxQ3A4Right;
-    CheckBox checkBoxQ3A5Wrong;
-    CheckBox checkBoxQ3A6Right;
-
-    CheckBox checkBoxQ5A1Right;
-    CheckBox checkBoxQ5A2Wrong;
-    CheckBox checkBoxQ5A3Right;
-    CheckBox checkBoxQ5A4Wrong;
-    CheckBox checkBoxQ5A5Right;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        userNameEditText = (EditText) findViewById(R.id.name_input_view);
-        quizAnswerQuestion7 = (EditText) findViewById(R.id.input_answer_question_7);
-
-        checkBoxQ3A1Wrong = (CheckBox) findViewById(R.id.multi_question_3_incorrect_answer_1);
-        checkBoxQ3A2Wrong = (CheckBox) findViewById(R.id.multi_question_3_incorrect_answer_2);
-        checkBoxQ3A3Right = (CheckBox) findViewById(R.id.multi_question_3_correct_answer_3);
-        checkBoxQ3A4Right = (CheckBox) findViewById(R.id.multi_question_3_correct_answer_4);
-        checkBoxQ3A5Wrong = (CheckBox) findViewById(R.id.multi_question_3_incorrect_answer_5);
-        checkBoxQ3A6Right = (CheckBox) findViewById(R.id.multi_question_3_correct_answer_6);
-
-        checkBoxQ5A1Right = (CheckBox) findViewById(R.id.multi_question_5_correct_answer_1);
-        checkBoxQ5A2Wrong = (CheckBox) findViewById(R.id.multi_question_5_incorrect_answer_2);
-        checkBoxQ5A3Right = (CheckBox) findViewById(R.id.multi_question_5_correct_answer_3);
-        checkBoxQ5A4Wrong = (CheckBox) findViewById(R.id.multi_question_5_incorrect_answer_4);
-        checkBoxQ5A5Right = (CheckBox) findViewById(R.id.multi_question_5_correct_answer_5);
     }
 
     public void submitQuiz(View view) {
+
+        EditText userNameEditText = (EditText) findViewById(R.id.name_input_view);
         String userName = userNameEditText.getText().toString();
         if (userName.isEmpty()) {
             userName = getString(R.string.no_name_user);
@@ -75,6 +45,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateScores() {
+
+        EditText quizAnswerQuestion7 = (EditText) findViewById(R.id.input_answer_question_7);
+
+        CheckBox checkBoxQ3A1Wrong = (CheckBox) findViewById(R.id.multi_question_3_incorrect_answer_1);
+        CheckBox checkBoxQ3A2Wrong = (CheckBox) findViewById(R.id.multi_question_3_incorrect_answer_2);
+        CheckBox checkBoxQ3A3Right = (CheckBox) findViewById(R.id.multi_question_3_correct_answer_3);
+        CheckBox checkBoxQ3A4Right = (CheckBox) findViewById(R.id.multi_question_3_correct_answer_4);
+        CheckBox checkBoxQ3A5Wrong = (CheckBox) findViewById(R.id.multi_question_3_incorrect_answer_5);
+        CheckBox checkBoxQ3A6Right = (CheckBox) findViewById(R.id.multi_question_3_correct_answer_6);
+
+        CheckBox checkBoxQ5A1Right = (CheckBox) findViewById(R.id.multi_question_5_correct_answer_1);
+        CheckBox checkBoxQ5A2Wrong = (CheckBox) findViewById(R.id.multi_question_5_incorrect_answer_2);
+        CheckBox checkBoxQ5A3Right = (CheckBox) findViewById(R.id.multi_question_5_correct_answer_3);
+        CheckBox checkBoxQ5A4Wrong = (CheckBox) findViewById(R.id.multi_question_5_incorrect_answer_4);
+        CheckBox checkBoxQ5A5Right = (CheckBox) findViewById(R.id.multi_question_5_correct_answer_5);
+
         final int[] correctSingleAnswers = {R.id.single_question_1_correct_answer,
                 R.id.single_question_2_correct_answer, R.id.single_question_4_correct_answer,
                 R.id.single_question_6_correct_answer};
